@@ -1,0 +1,6 @@
+web_port: 8080
+postgres_password: "your_secure_password_here"
+secret_key: "generate_a_very_long_random_secret_key_here"
+kitsu_postgres_volume: "/mnt/DATA2/kitsu/postgres"
+kitsu_preview_volume: "/mnt/DATA2/kitsu/preview"
+kitsu_thumbnails_volume: "/mnt/DATA2/kitsu/thumbnails"
